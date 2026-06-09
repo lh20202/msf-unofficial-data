@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-06-09T15:12:59.393Z",
+  "yearFrom": 2016,
+  "yearTo": 2026,
+  "totalRecords": 398,
+  "recordsBySource": {
+    "OpenAlex": 399,
+    "Crossref": 4
+  },
+  "queriesUsed": {
+    "OpenAlex": [
+      "Médecins Sans Frontières",
+      "Doctors Without Borders",
+      "MSF",
+      "Epicentre"
+    ],
+    "Crossref": [
+      "Médecins Sans Frontières",
+      "Doctors Without Borders",
+      "Epicentre"
+    ],
+    "ReliefWeb": []
+  },
+  "sourcesAttempted": [
+    "OpenAlex",
+    "Crossref",
+    "MSF Science Portal",
+    "MSF.org Resource Centre / reports and finances",
+    "ReliefWeb"
+  ],
+  "sourcesSucceeded": [
+    "OpenAlex",
+    "Crossref"
+  ],
+  "sourcesSkipped": [
+    {
+      "source": "MSF Science Portal",
+      "reason": "MSF Science Portal was not harvested because no stable public search API was confirmed in this prototype."
+    },
+    {
+      "source": "MSF.org Resource Centre / reports and finances",
+      "reason": "MSF Resource Centre was kept as a reference source because no reliable structured listing with publication dates was confirmed in this prototype."
+    },
+    {
+      "source": "ReliefWeb",
+      "reason": "ReliefWeb harvesting skipped because RELIEFWEB_APPNAME is not set. Existing optional live query UI remains available."
+    }
+  ],
+  "limitations": [
+    "Prepared metadata index built from public open sources.",
+    "Not a complete official MSF publication database.",
+    "Metadata can include records that mention MSF-related terms without proving official authorship, affiliation or endorsement.",
+    "No full PDFs are downloaded or republished.",
+    "MSF Science Portal was not harvested because no stable public search API was confirmed in this prototype.",
+    "MSF Resource Centre was kept as a reference source because no reliable structured listing with publication dates was confirmed in this prototype.",
+    "ReliefWeb harvesting skipped because RELIEFWEB_APPNAME is not set. Existing optional live query UI remains available."
+  ],
+  "buildWarnings": [
+    "MSF Science Portal page scripts mention possible API/search terms, but no stable public listing endpoint was confirmed automatically."
+  ]
+}
