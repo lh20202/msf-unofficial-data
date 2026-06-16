@@ -1,0 +1,497 @@
+{
+  "schemaVersion": "1.0.0",
+  "productName": "Country Pulse",
+  "usp": "Country Pulse turns public humanitarian data into simple, evidence-led comparisons: what changed, where, compared with what, and why that matters.",
+  "generatedAt": "2026-06-16T18:41:23.001Z",
+  "lastUpdated": "2026-06-16",
+  "dateRanges": {
+    "last30": "2026-05-17 to 2026-06-16",
+    "previous30": "2026-04-17 to 2026-05-17",
+    "last90": "2026-03-18 to 2026-06-16"
+  },
+  "controls": {
+    "countries": [
+      {
+        "id": "sudan",
+        "name": "Sudan"
+      },
+      {
+        "id": "haiti",
+        "name": "Haiti"
+      }
+    ],
+    "compareWith": [
+      {
+        "id": "previous30",
+        "label": "Previous 30 days"
+      },
+      {
+        "id": "previous90",
+        "label": "Previous 90 days"
+      },
+      {
+        "id": "country",
+        "label": "Other country"
+      }
+    ],
+    "themes": [
+      {
+        "id": "combined",
+        "label": "Combined"
+      },
+      {
+        "id": "media",
+        "label": "Media"
+      },
+      {
+        "id": "reporting",
+        "label": "Reporting"
+      },
+      {
+        "id": "funding",
+        "label": "Funding"
+      },
+      {
+        "id": "food-prices",
+        "label": "Food prices"
+      }
+    ],
+    "questions": [
+      {
+        "id": "what-changed",
+        "label": "What changed?"
+      },
+      {
+        "id": "largest-gap",
+        "label": "What has the largest gap?"
+      },
+      {
+        "id": "under-reported",
+        "label": "What is under-reported?"
+      },
+      {
+        "id": "available-to-compare",
+        "label": "What is available enough to compare?"
+      }
+    ]
+  },
+  "countries": [
+    {
+      "id": "sudan",
+      "name": "Sudan",
+      "iso3": "SDN",
+      "accent": "#d96b5f",
+      "compareWith": "haiti",
+      "lastUpdated": "2026-06-16",
+      "metrics": {
+        "media": {
+          "available": true,
+          "last30Mentions": 1916,
+          "previous30Mentions": 1966,
+          "last90Mentions": 5944,
+          "mediaChangePct": -2.5,
+          "mediaShareAcrossSelectedCountries": null,
+          "mediaTrendLabel": "broadly stable",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Contextual signal"
+        },
+        "reporting": {
+          "available": false,
+          "last30Reports": null,
+          "previous30Reports": null,
+          "last90Reports": null,
+          "reportChangePct": null,
+          "topReportingThemes": [],
+          "reportingTrendLabel": "insufficient baseline",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "No comparable public value available for this filter."
+        },
+        "funding": {
+          "available": false,
+          "fundingRequired": null,
+          "fundingReceived": null,
+          "fundingCoveragePct": null,
+          "fundingGapPct": null,
+          "topDonors": [],
+          "fundingStatusLabel": "No comparable public value available for this filter.",
+          "dateRange": "No comparable public value available for this filter.",
+          "confidenceLabel": "No comparable public value available for this filter."
+        },
+        "foodPrices": {
+          "available": true,
+          "availableMarketCount": 7,
+          "availableCommodityCount": 7,
+          "latestMarketDataDate": "2026-05-24",
+          "priceChangePct": null,
+          "dateRange": "2026-05-24",
+          "confidenceLabel": "Availability only: market data coverage"
+        },
+        "humanitarianCoverage": {
+          "available": true,
+          "datasetCount": 7,
+          "resourceCount": 28,
+          "dateRange": "Current HDX package index",
+          "confidenceLabel": "Availability only: structured dataset coverage"
+        }
+      },
+      "insights": [
+        {
+          "id": "media-what-changed",
+          "theme": "media",
+          "question": "what-changed",
+          "headline": "Public media attention is broadly stable.",
+          "shortAnswer": "Public reporting on Sudan decreased by 2.5% compared with the previous 30 days.",
+          "evidenceBullets": [
+            "1,916 article-count mentions in the last 30 days.",
+            "1,966 article-count mentions in the previous 30 days.",
+            "5,944 article-count mentions across the last 90 days."
+          ],
+          "comparisonBasis": "Compared with the previous 30 days",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Contextual signal",
+          "caveat": "Article volume is an attention measure. It does not verify a change in need or severity.",
+          "methodCategory": "Media/article counts",
+          "sourceCategories": [
+            "Media/article counts"
+          ]
+        },
+        {
+          "id": "combined-under-reported",
+          "theme": "combined",
+          "question": "under-reported",
+          "headline": "The clearest comparable movement is public attention, not funding coverage.",
+          "shortAnswer": "Sudan accounts for No comparable public value available of selected-country media mentions in the latest 30-day window, compared with Haiti.",
+          "evidenceBullets": [
+            "Sudan: 1,916 latest 30-day mentions.",
+            "Media trend: broadly stable.",
+            "Funding coverage is not comparable from the connected public data."
+          ],
+          "comparisonBasis": "Compared with Haiti",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Contextual signal",
+          "caveat": "A larger media share can reflect attention, language, or publication patterns. It should not be read as a ranking of humanitarian need.",
+          "methodCategory": "Combined comparison",
+          "sourceCategories": [
+            "Media/article counts",
+            "Funding data"
+          ]
+        },
+        {
+          "id": "food-available-to-compare",
+          "theme": "food-prices",
+          "question": "available-to-compare",
+          "headline": "Market data coverage is visible, but price movement is not inferred.",
+          "shortAnswer": "Sudan has public food-market coverage across 7 market references and 7 commodity references in the connected data search.",
+          "evidenceBullets": [
+            "7 market references found.",
+            "7 commodity references found.",
+            "Latest dated market resource: 2026-05-24."
+          ],
+          "comparisonBasis": "Market-data coverage, not price severity",
+          "dateRange": "2026-05-24",
+          "confidenceLabel": "Availability only: market data coverage",
+          "caveat": "Do not treat dataset coverage as evidence of price movement until commodity-level values are parsed.",
+          "methodCategory": "Food/market data",
+          "sourceCategories": [
+            "Food/market data"
+          ]
+        },
+        {
+          "id": "food-largest-gap",
+          "theme": "food-prices",
+          "question": "largest-gap",
+          "headline": "The food-price gap is commodity-level movement.",
+          "shortAnswer": "Sudan has market-data coverage, but the generated public values do not yet support a safe month-to-month or year-to-year price-change conclusion.",
+          "evidenceBullets": [
+            "7 market references are available.",
+            "7 commodity references are available.",
+            "Price movement is not shown unless commodity-level values can be parsed without guessing."
+          ],
+          "comparisonBasis": "Coverage compared with extractable price movement",
+          "dateRange": "2026-05-24",
+          "confidenceLabel": "Availability only: market data coverage",
+          "caveat": "Market coverage supports further comparison; it is not evidence that prices rose or fell.",
+          "methodCategory": "Food/market data",
+          "sourceCategories": [
+            "Food/market data"
+          ]
+        },
+        {
+          "id": "combined-available-to-compare",
+          "theme": "combined",
+          "question": "available-to-compare",
+          "headline": "The strongest comparable base is coverage of public datasets.",
+          "shortAnswer": "Sudan has 7 structured humanitarian dataset matches and 7 food-market references in the current build.",
+          "evidenceBullets": [
+            "7 humanitarian dataset matches.",
+            "28 related resources.",
+            "Media movement is also available for comparison."
+          ],
+          "comparisonBasis": "Comparable public-data coverage",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Availability only: public data coverage",
+          "caveat": "Coverage indicates what can be compared. It is not a severity score.",
+          "methodCategory": "Structured humanitarian indicators",
+          "sourceCategories": [
+            "Structured humanitarian indicators",
+            "Food/market data",
+            "Media/article counts"
+          ]
+        },
+        {
+          "id": "combined-largest-gap",
+          "theme": "combined",
+          "question": "largest-gap",
+          "headline": "The largest analytical gap is funding and reporting comparability.",
+          "shortAnswer": "Sudan has comparable public data coverage for market and humanitarian dataset availability, but funding coverage and humanitarian report movement are not comparable in the generated data.",
+          "evidenceBullets": [
+            "Funding coverage is not shown because requirement and received values could not be compared.",
+            "Report movement is not shown because comparable report counts were not returned.",
+            "Media movement is broadly stable."
+          ],
+          "comparisonBasis": "Available values compared with missing comparable values",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Evidence-led limitation",
+          "caveat": "A missing comparable value is not evidence of absence. It only marks the limit of this public-data view.",
+          "methodCategory": "Combined comparison",
+          "sourceCategories": [
+            "Funding data",
+            "Humanitarian reporting",
+            "Media/article counts"
+          ]
+        }
+      ],
+      "sourceGroups": [
+        {
+          "id": "funding",
+          "label": "Funding data",
+          "usedInVisibleInsights": false,
+          "dateRange": "No comparable public value available for this filter.",
+          "contribution": "Funding coverage was not shown because comparable requirement and received values were not available.",
+          "limitation": "Funding data is shown only when requirement and received values can be compared without guessing."
+        },
+        {
+          "id": "media",
+          "label": "Media/article counts",
+          "usedInVisibleInsights": true,
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "contribution": "Used to calculate article-count movement and country share.",
+          "limitation": "Article counts are contextual attention signals, not confirmation of humanitarian conditions."
+        },
+        {
+          "id": "reporting",
+          "label": "Humanitarian reporting",
+          "usedInVisibleInsights": false,
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "contribution": "Reporting pressure was not shown because the API did not provide a comparable value.",
+          "limitation": "Report volume reflects publication behaviour and access to public reporting, not severity by itself."
+        },
+        {
+          "id": "food",
+          "label": "Food/market data",
+          "usedInVisibleInsights": true,
+          "dateRange": "2026-05-24",
+          "contribution": "Used to show market-data coverage.",
+          "limitation": "Dataset coverage is not food-price severity unless commodity-level prices are parsed."
+        },
+        {
+          "id": "humanitarian",
+          "label": "Structured humanitarian indicators",
+          "usedInVisibleInsights": true,
+          "dateRange": "Current HDX package index",
+          "contribution": "Used to show comparable dataset coverage.",
+          "limitation": "Dataset availability indicates comparability; it is not an indicator value."
+        }
+      ],
+      "dataQuality": "Multiple public categories produced comparable values."
+    },
+    {
+      "id": "haiti",
+      "name": "Haiti",
+      "iso3": "HTI",
+      "accent": "#56b6a5",
+      "compareWith": "sudan",
+      "lastUpdated": "2026-06-16",
+      "metrics": {
+        "media": {
+          "available": false,
+          "last30Mentions": null,
+          "previous30Mentions": null,
+          "last90Mentions": null,
+          "mediaChangePct": null,
+          "mediaShareAcrossSelectedCountries": null,
+          "mediaTrendLabel": "insufficient baseline",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "No comparable public value available for this filter."
+        },
+        "reporting": {
+          "available": false,
+          "last30Reports": null,
+          "previous30Reports": null,
+          "last90Reports": null,
+          "reportChangePct": null,
+          "topReportingThemes": [],
+          "reportingTrendLabel": "insufficient baseline",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "No comparable public value available for this filter."
+        },
+        "funding": {
+          "available": false,
+          "fundingRequired": null,
+          "fundingReceived": null,
+          "fundingCoveragePct": null,
+          "fundingGapPct": null,
+          "topDonors": [],
+          "fundingStatusLabel": "No comparable public value available for this filter.",
+          "dateRange": "No comparable public value available for this filter.",
+          "confidenceLabel": "No comparable public value available for this filter."
+        },
+        "foodPrices": {
+          "available": true,
+          "availableMarketCount": 5,
+          "availableCommodityCount": 5,
+          "latestMarketDataDate": "2026-05-10",
+          "priceChangePct": null,
+          "dateRange": "2026-05-10",
+          "confidenceLabel": "Availability only: market data coverage"
+        },
+        "humanitarianCoverage": {
+          "available": true,
+          "datasetCount": 3,
+          "resourceCount": 8,
+          "dateRange": "Current HDX package index",
+          "confidenceLabel": "Availability only: structured dataset coverage"
+        }
+      },
+      "insights": [
+        {
+          "id": "food-available-to-compare",
+          "theme": "food-prices",
+          "question": "available-to-compare",
+          "headline": "Market data coverage is visible, but price movement is not inferred.",
+          "shortAnswer": "Haiti has public food-market coverage across 5 market references and 5 commodity references in the connected data search.",
+          "evidenceBullets": [
+            "5 market references found.",
+            "5 commodity references found.",
+            "Latest dated market resource: 2026-05-10."
+          ],
+          "comparisonBasis": "Market-data coverage, not price severity",
+          "dateRange": "2026-05-10",
+          "confidenceLabel": "Availability only: market data coverage",
+          "caveat": "Do not treat dataset coverage as evidence of price movement until commodity-level values are parsed.",
+          "methodCategory": "Food/market data",
+          "sourceCategories": [
+            "Food/market data"
+          ]
+        },
+        {
+          "id": "food-largest-gap",
+          "theme": "food-prices",
+          "question": "largest-gap",
+          "headline": "The food-price gap is commodity-level movement.",
+          "shortAnswer": "Haiti has market-data coverage, but the generated public values do not yet support a safe month-to-month or year-to-year price-change conclusion.",
+          "evidenceBullets": [
+            "5 market references are available.",
+            "5 commodity references are available.",
+            "Price movement is not shown unless commodity-level values can be parsed without guessing."
+          ],
+          "comparisonBasis": "Coverage compared with extractable price movement",
+          "dateRange": "2026-05-10",
+          "confidenceLabel": "Availability only: market data coverage",
+          "caveat": "Market coverage supports further comparison; it is not evidence that prices rose or fell.",
+          "methodCategory": "Food/market data",
+          "sourceCategories": [
+            "Food/market data"
+          ]
+        },
+        {
+          "id": "combined-available-to-compare",
+          "theme": "combined",
+          "question": "available-to-compare",
+          "headline": "The strongest comparable base is coverage of public datasets.",
+          "shortAnswer": "Haiti has 3 structured humanitarian dataset matches and 5 food-market references in the current build.",
+          "evidenceBullets": [
+            "3 humanitarian dataset matches.",
+            "8 related resources.",
+            "Media movement is not available for this build output."
+          ],
+          "comparisonBasis": "Comparable public-data coverage",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Availability only: public data coverage",
+          "caveat": "Coverage indicates what can be compared. It is not a severity score.",
+          "methodCategory": "Structured humanitarian indicators",
+          "sourceCategories": [
+            "Structured humanitarian indicators",
+            "Food/market data",
+            "Media/article counts"
+          ]
+        },
+        {
+          "id": "combined-largest-gap",
+          "theme": "combined",
+          "question": "largest-gap",
+          "headline": "The largest analytical gap is funding and reporting comparability.",
+          "shortAnswer": "Haiti has comparable public data coverage for market and humanitarian dataset availability, but funding coverage and humanitarian report movement are not comparable in the generated data.",
+          "evidenceBullets": [
+            "Funding coverage is not shown because requirement and received values could not be compared.",
+            "Report movement is not shown because comparable report counts were not returned.",
+            "Media movement is not shown for this output because article counts were not returned."
+          ],
+          "comparisonBasis": "Available values compared with missing comparable values",
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "confidenceLabel": "Evidence-led limitation",
+          "caveat": "A missing comparable value is not evidence of absence. It only marks the limit of this public-data view.",
+          "methodCategory": "Combined comparison",
+          "sourceCategories": [
+            "Funding data",
+            "Humanitarian reporting",
+            "Media/article counts"
+          ]
+        }
+      ],
+      "sourceGroups": [
+        {
+          "id": "funding",
+          "label": "Funding data",
+          "usedInVisibleInsights": false,
+          "dateRange": "No comparable public value available for this filter.",
+          "contribution": "Funding coverage was not shown because comparable requirement and received values were not available.",
+          "limitation": "Funding data is shown only when requirement and received values can be compared without guessing."
+        },
+        {
+          "id": "media",
+          "label": "Media/article counts",
+          "usedInVisibleInsights": false,
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "contribution": "Media movement was not shown for filters that need it.",
+          "limitation": "Article counts are contextual attention signals, not confirmation of humanitarian conditions."
+        },
+        {
+          "id": "reporting",
+          "label": "Humanitarian reporting",
+          "usedInVisibleInsights": false,
+          "dateRange": "2026-03-18 to 2026-06-16",
+          "contribution": "Reporting pressure was not shown because the API did not provide a comparable value.",
+          "limitation": "Report volume reflects publication behaviour and access to public reporting, not severity by itself."
+        },
+        {
+          "id": "food",
+          "label": "Food/market data",
+          "usedInVisibleInsights": true,
+          "dateRange": "2026-05-10",
+          "contribution": "Used to show market-data coverage.",
+          "limitation": "Dataset coverage is not food-price severity unless commodity-level prices are parsed."
+        },
+        {
+          "id": "humanitarian",
+          "label": "Structured humanitarian indicators",
+          "usedInVisibleInsights": true,
+          "dateRange": "Current HDX package index",
+          "contribution": "Used to show comparable dataset coverage.",
+          "limitation": "Dataset availability indicates comparability; it is not an indicator value."
+        }
+      ],
+      "dataQuality": "Comparable values are available for a limited set of categories."
+    }
+  ]
+}

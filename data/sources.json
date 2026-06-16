@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-06-16T18:41:23.001Z",
+  "methodLine": "Measured from public datasets and reporting APIs. Some values are unavailable where public sources do not provide comparable data.",
+  "sourceGroups": [
+    {
+      "id": "funding",
+      "label": "Funding data",
+      "publicBasis": "OCHA FTS / HPC and FTS datasets",
+      "contribution": "Funding requirements, received funding, coverage, gaps, and donors where public values are available.",
+      "dateRange": "2026-03-18 to 2026-06-16",
+      "usedInVisibleInsights": false,
+      "limitations": "Funding data is shown only when requirement and received values can be compared without guessing."
+    },
+    {
+      "id": "media",
+      "label": "Media/article counts",
+      "publicBasis": "GDELT DOC API",
+      "contribution": "Article-count movement for the last 30 days, previous 30 days, and last 90 days.",
+      "dateRange": "2026-03-18 to 2026-06-16",
+      "usedInVisibleInsights": true,
+      "limitations": "Article counts are contextual attention signals, not confirmation of humanitarian conditions."
+    },
+    {
+      "id": "reporting",
+      "label": "Humanitarian reporting",
+      "publicBasis": "ReliefWeb API",
+      "contribution": "Report-volume movement and public reporting concentration where the API provides comparable values.",
+      "dateRange": "2026-03-18 to 2026-06-16",
+      "usedInVisibleInsights": false,
+      "limitations": "Report volume reflects publication behaviour and access to public reporting, not severity by itself."
+    },
+    {
+      "id": "food",
+      "label": "Food/market data",
+      "publicBasis": "WFP/HDX food-price and market datasets",
+      "contribution": "Market and commodity coverage; price movement only when safely extractable.",
+      "dateRange": "2026-03-18 to 2026-06-16",
+      "usedInVisibleInsights": true,
+      "limitations": "Dataset coverage is not food-price severity unless commodity-level prices are parsed."
+    },
+    {
+      "id": "humanitarian",
+      "label": "Structured humanitarian indicators",
+      "publicBasis": "HDX/HAPI or HDX data search",
+      "contribution": "Structured humanitarian dataset coverage for comparable public analysis.",
+      "dateRange": "2026-03-18 to 2026-06-16",
+      "usedInVisibleInsights": true,
+      "limitations": "Dataset availability indicates comparability; it is not an indicator value."
+    }
+  ]
+}
